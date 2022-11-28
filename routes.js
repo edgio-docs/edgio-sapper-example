@@ -1,9 +1,9 @@
-// This file was automatically added by layer0 deploy.
+// This file was automatically added by edgio deploy.
 // You should commit this file to source control.
-import { Router } from '@layer0/core/router'
-import { sapperRoutes } from '@layer0/sapper'
-import getPrerenderRequests from './layer0/getPrerenderRequests'
-import { API_CACHE_HANDLER, SSR_CACHE_HANDLER } from './layer0/cache'
+import { Router } from '@edgio/core/router'
+import { sapperRoutes } from '@edgio/sapper'
+import getPrerenderRequests from './edgio/getPrerenderRequests'
+import { API_CACHE_HANDLER, SSR_CACHE_HANDLER } from './edgio/cache'
 
 export default new Router()
   .prerender(getPrerenderRequests)
